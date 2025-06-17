@@ -1,6 +1,6 @@
 # Learning JavaScript
 
-[x] Intro to Javascript
-[x] Variables and Datatypes
-[x] Operator and Conditionals
-[ ] Loops and Strings
+[x] Intro to Javascript <br>
+[x] Variables and Datatypes <br>
+[x] Operator and Conditionals <br>
+[ ] Loops and Strings <br>
