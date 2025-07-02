@@ -53,3 +53,16 @@ obj.walking();
 obj.running();  
 
 
+
+//Default parameters in functions allow you to set default values for function parameters if no value or undefined is passed.
+
+
+function sayName(myName = "Prem"){
+    console.log("My name is ", myName);
+}
+
+sayName(); // My name is  Prem
+sayName("John"); // My name is  John
+sayName(undefined); // My name is  Prem (default value is used)
+
+// we can set anything as a default value, including objects, arrays, and functions.
