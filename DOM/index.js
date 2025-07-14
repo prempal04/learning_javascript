@@ -70,12 +70,12 @@
 // --insertAdjacentElement() 
 // it is used to add elements to the HTML file at desired position like before begin , after begin, before end, after end;
 
-let mydiv = document.querySelector('.mydiv');
+// let mydiv = document.querySelector('.mydiv');
 
-let newElement = document.createElement('span');
-newElement.textContent = "Love & Peace"
+// let newElement = document.createElement('span');
+// newElement.textContent = "Love & Peace"
 
-mydiv.insertAdjacentElement('beforebegin' , newElement);
+// mydiv.insertAdjacentElement('beforebegin' , newElement);
 
 // 
 // --beforebegin
@@ -88,3 +88,64 @@ mydiv.insertAdjacentElement('beforebegin' , newElement);
 // --afterend;
 
 
+
+// --changing styles in css
+
+let para = document.getElementById('spara');
+// this is used to fetch the element with id spara
+
+para.style.backgroundColor = 'red';
+// this is used to change the background color of the element with class para
+
+para.style.color = 'white';
+// this is used to change the text color of the element with class para
+
+para.style.fontSize = '2rem';
+// this is used to change the font size of the element with class para
+
+
+// --css text
+
+let secondElement = document.getElementsByClassName('sdiv');
+// this is used to fetch the element with class sdiv
+
+secondElement.style.cssText[0] = 'background-color: blue; color: white; font-size: 2rem;';
+
+// --set attribute
+// this is used to set the attribute of the element it actually replaces the existing attribute with the new one
+
+let firstElement = document.querySelector('fdiv');
+// this is used to fetch the element with class fdiv
+
+firstElement.setAttribute('id', 'newId');
+// this is used to set the id of the element with class fdiv
+
+firstElement.setAttribute('style', 'background-color: green; color: white; font-size: 2rem;');
+// this is used to set the style of the element with class fdiv
+
+// --className
+// this is used to set the class of the element
+
+// let fpara = document.getElementById('fpara');
+// this is used to fetch the element with id fpara
+
+// fpara.className = 'newClass';
+// this is used to set the class of the element with id fpara
+
+// --classList
+// this is used to add, remove, toggle, contains classes in the element
+
+let fpara = document.getElementById('fpara');
+// this is used to fetch the element with id fpara  
+
+fpara.classList.add('newClass');
+// this is used to add the class newClass to the element with id fpara
+
+fpara.classList.remove('newClass');
+// this is used to remove the class newClass from the element with id fpara
+
+fpara.classList.toggle('newClass');
+// this is used to toggle the class newClass from the element with id fpara
+
+fpara.classList.contains('newClass');
+// this is used to check if the class newClass is present in the element with id fpara
