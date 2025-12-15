@@ -1,6 +1,23 @@
-# Learning JavaScript
+# JavaScript Series 2024 – Video Checklist
 
-[x] Intro to Javascript <br>
-[x] Variables and Datatypes <br>
-[x] Operator and Conditionals <br>
-[x] Loops and Strings <br>
+- [ ] Intro to JavaScript
+- [ ] Variables and DataTypes in JS
+- [ ] Operators & Conditionals in JavaScript
+- [ ] Loops and String in JavaScript
+- [ ] Plain and Arrow Functions in JS
+- [ ] Reference Types: Objects && Arrays in JS
+- [ ] Variable/Function Hoisting && Function Calls in JS
+- [ ] Temporal Dead Zone in JS
+- [ ] Classes && Default Parameters in Functions
+- [ ] Common In-Built Objects in JS
+- [ ] Object Cloning && Garbage Collector in JS
+- [ ] Error Handling in JS
+- [ ] JS DOM Manipulation – Access/Insert/Update/Delete Elements
+- [ ] JS DOM Manipulation – Styling Elements
+- [ ] All about Events & Listeners in JS
+- [ ] Performance: Reflow && Repaint in JS
+- [ ] Learn Event Loop in 1 Shot
+- [ ] JavaScript Promises in 1 Video
+- [ ] Async-Await and Fetch API in JavaScript
+- [ ] Closures in JavaScript
+- [ ] LeetCode Metrics App using JavaScript
