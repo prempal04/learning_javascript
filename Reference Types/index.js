@@ -21,13 +21,13 @@
 
 // --creation of an array
 // let arr = [1, 2, 3, 4, 5];
-// console.log(arr); // [ 1, 2, 3, 4,
+// console.log(arr); // [ 1, 2, 3, 4,]
 
 // // --array constructor
 // let arr2 = new Array("Peace", 2, true, 4, 5);
 // console.log(arr2); // [ 1, 2, 3, 4, 5 ]
 
-// // --accessing elements
+// // // --accessing elements
 // console.log(arr2[0]); // Peace
 
 
@@ -136,14 +136,14 @@
 
 
 // let arr9 = [5, 3, 8, 1, 2];
-// // arr9.sort();
+// arr9.sort();
 
-// // console.log(arr9); // [ 1, 2, 3, 5, 8 ] // sorts the array in ascending order by default
+// console.log(arr9); // [ 1, 2, 3, 5, 8 ] // sorts the array in ascending order by default
 
-// // --using compare function
-// // arr9.sort((a, b) => {
-// //     return a - b; // sorts the array in ascending order
-// // });
+// // // --using compare function
+// arr9.sort((a, b) => {
+//     return a - b; // sorts the array in ascending order
+// });
 
 // // console.log(arr9); // [ 1, 2, 3, 5, 8 ] // sorts the array in ascending order
 

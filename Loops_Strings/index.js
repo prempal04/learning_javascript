@@ -96,14 +96,19 @@
 
 
 
-// --back tick 
+// --back tick  // template literals
 
-// let firstName = `Love 
-// &
-// Peace`;
+let firstName = `Love 
+&
+Peace`;
 
-// console.log(firstName);
+console.log(firstName);
 
+
+// these are also known as Template Literals in which inside the backticks there is no need to add double quotes for string.. and variables just use ${} 
+
+let output = `My name is ${firstName}`;
+console.log(output);
 
 
 // -- new string();\
