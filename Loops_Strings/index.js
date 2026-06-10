@@ -178,3 +178,16 @@ console.log(output);
 // --join words
 
 // console.log(words.join('-'))
+
+
+// for of loop
+
+let fruits = ['apple', 'banana', 'grapes', 'orange'];
+
+for (let fruit of fruits){
+    console.log(fruit);
+}
+
+for (char of "PEACE"){
+    console.log(char);
+}

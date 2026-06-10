@@ -155,3 +155,14 @@ console.log("First element of the third array: ", multiArr[2][0]);  // 5
 console.log("First element of the nested array: ", multiArr[1][2][0]); // 5 
 
 
+//nested loops with nested arrays
+
+let heros = [["Iron Man", "Captain America"], ["Thor", "Hulk"], ["Black Widow", "Hawkeye"]];
+ 
+for(let i = 0; i < heros.length; i++){
+    for(let j = 0; j < heros[i].length; j++){
+        console.log(heros[i][j]);
+    }
+}   
+
+

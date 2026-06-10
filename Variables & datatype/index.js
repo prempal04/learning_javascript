@@ -64,6 +64,8 @@
 
 
 // Javascript is dynamically typed or statically typed language ? 
+// javascript is dynamically typed language because we can change the datatype of the variable at any time and we don't need to declare the datatype of the variable while declaring it.
+
 
 
 
