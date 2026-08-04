@@ -166,3 +166,67 @@ for(let i = 0; i < heros.length; i++){
 }   
 
 
+// Array Methods
+
+// for each method -- it executes a provided function once for each array element.
+
+let arr9 = [1, 2, 3, 4, 5];
+
+
+arr9.forEach((element) => {
+    console.log(element);
+});
+
+// Map method -- it creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+let arr10 = [1, 2, 3, 4, 5];
+
+let newArr = arr10.map((element) => {
+    return element * 2;
+});
+
+console.log("New array after map: ", newArr); // [2, 4, 6, 8, 10]
+
+// Filter method -- it creates a new array with all elements that pass the test implemented by the provided function.
+
+let arr11 = [1, 2, 3, 4, 5];
+
+let even = arr11.filter((element) => (element %2 == 0));
+console.log("Even numbers: ", even); // [2, 4];
+
+
+// every method -- it tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+
+let arr12 = [1, 2, 3, 4, 5];
+
+let allEven = arr12.every((element) => (element %2 == 0));
+console.log("Are all elements even? ", allEven); // false
+
+// some method -- it tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value.
+
+let arr13 = [1, 2, 3, 4, 5];
+
+let someEven = arr13.some((element) => (element %2 == 0));
+console.log("Is there any even element? ", someEven); // true       
+
+
+// reduce method -- it executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+
+let arr14 = [1, 2, 15, 4, 5];
+
+let sum = arr14.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue;
+}, 0);
+
+console.log("Sum of all elements: ", sum); // 15
+
+// finding max in array using reduce method
+
+let max = arr14.reduce((accumulator, currentValue) => {
+    if(accumulator < currentValue){
+        return currentValue;
+    }else{
+        return accumulator;
+    }
+});
+console.log("Max element in the array: ", max); // 5

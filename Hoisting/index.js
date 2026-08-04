@@ -36,6 +36,43 @@
     }
 }
 
+// High Order Functions are functions that can take other functions as arguments or return functions as their result.
+//  They are a powerful feature of JavaScript and allow for more abstract and flexible code.
+
+
+function multiple(func, n){
+    for(let i = 0; i<n; i++){
+        func();
+    }
+}
+
+let greet = function(){
+    console.log("Hello, World!");
+}
+
+multiple(greet, 5); // Output: Hello, World! (printed 5 times)
+
+// higher order function that return a function
+
+function oddEvenTest(request){
+    if(request === "odd"){
+        return function(num){
+            if(num % 2 !== 0){
+                console.log(num, "is odd");
+            }
+        }
+    } else if(request === "even"){
+        return function(num){
+            console.log(num % 2 === 0);
+        }
+    } else {
+        console.log("wrong request");
+    }
+}
+
+
+
+
 
 // let and const declarations are also not hoisted in the same way as var declarations. If you try to access a variable declared with let or const before its declaration, you will get a ReferenceError.
 

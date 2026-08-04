@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+   
+}
+
+#btn{
+    padding: 1rem;
+    margin: 2rem;
+}
+
+body{
+    text-align: center;
+    
+}
