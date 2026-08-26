@@ -69,4 +69,15 @@ function changeColor(color, delay) {
 // rejected: meaning that the operation failed.
 
 
-//  
+// async functions -- these are functions that are declared with the async keyword, and they always return a promise. The await keyword can only be used inside an async function. It makes JavaScript wait until the promise returns a result.
+
+async function greet() {
+
+    return "hello world!"
+    
+}
+
+
+
+// await keyword -- it pauses the execution of its surroundings async functions until the promise is settled
+
