@@ -1,0 +1,53 @@
+[
+	{
+		"name": "cats",
+		"followers": 1240,
+		"following": 318,
+		"posts": [
+			{
+				"image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=800",
+				"likes": 248,
+				"comments": 18
+			},
+			{
+				"image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800",
+				"likes": 193,
+				"comments": 12
+			}
+		]
+	},
+	{
+		"name": "dogs",
+		"followers": 865,
+		"following": 204,
+		"posts": [
+			{
+				"image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+				"likes": 317,
+				"comments": 25
+			},
+			{
+				"image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800",
+				"likes": 276,
+				"comments": 21
+			}
+		]
+	},
+	{
+		"name": "birds",
+		"followers": 2180,
+		"following": 456,
+		"posts": [
+			{
+				"image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=800",
+				"likes": 524,
+				"comments": 42
+			},
+			{
+				"image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800",
+				"likes": 481,
+				"comments": 36
+			}
+		]
+	}
+]

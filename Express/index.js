@@ -1,3 +1,5 @@
+// use nodemon index.js to start the server, it will automatically restart the server when changes are made to the code.
+
 // EXPRESS JS
 const express = require('express');
 
@@ -48,6 +50,9 @@ app.get("/", (req, res) => {
 //     res.send(`Welcome to the page of @${username}`);
 // });
 
+
+// Express -- req and res are objects that represent the HTTP request and response respectively. The req object contains information about the incoming request, such as the request headers, query parameters, and request body. The res object is used to send a response back to the client.
+
 app.get("/search", (req, res) => {
     let {q} = req.query;
     if(!q){
@@ -55,3 +60,4 @@ app.get("/search", (req, res) => {
     }
     res.send(`<h1>Search results for: ${q}</h1>`);
 });
+
