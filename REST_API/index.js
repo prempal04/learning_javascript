@@ -1,19 +1,19 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-const path = require('path');
-const methodOverride = require('method-override');
+const path = require('path'); // helps construct file paths.
+const methodOverride = require('method-override'); //enables PATCH and DELETE through HTML forms.
 
-const {v4: uuid} = require('uuid');
+const {v4: uuid} = require('uuid'); //generates unique post IDs.
 
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true })); //parses form submissions.
 app.use(methodOverride('_method'));
 
-app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs'); //configures EJS as the template engine.
+app.set('views', path.join(__dirname, 'views')); //tells Express where the view templates are stored.
 
-app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, 'public'))); //serves static files such as CSS.
+
 
 let posts = [
     {
